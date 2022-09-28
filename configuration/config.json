@@ -1,0 +1,38 @@
+{
+    "game":{
+        "width": 100,
+        "height": 100,
+        "fps" : 30
+    },
+    "hp_ga":{
+        "actions_in_generation": 2,
+        "max_generations": 1000,
+        "prey_initial_population": 600,
+        "predator_initial_population": 80,
+        "max_food": 800,
+        "spawn_food": 800,
+        "weight_food_for_fitness": 10
+    },
+    "genome":{
+        "max_vision" :50,
+        "min_vision" : 5,
+        "max_speed" : 50,
+        "min_speed" : 10,
+        "max_size" : 80,
+        "min_size" : 10,
+        "max_voracity" : 20,
+        "min_voracity" : 0,
+        "max_starting_energy" : 120,
+        "min_starting_energy" : 40,
+        "max_damage" : 30,
+        "min_damage" : 1
+    },
+    "predator":{
+        "energy_multiplier": 10,
+        "birthrate" : 0.8
+    },
+    "prey":{
+        "energy_multiplier": 10,
+        "birthrate" : 2
+    }
+}
