@@ -2,8 +2,9 @@
 Unimi Project for SIA
 
 
-Usage. 
-Clone the repository
-cd in the folder
+Usage :
+
+cd the main folder
+Run command
 
 python main.py
